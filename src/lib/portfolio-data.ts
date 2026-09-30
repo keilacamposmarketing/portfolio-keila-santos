@@ -5,7 +5,7 @@ import setorEngenhariaPhoto from "../assets/projects-setor-engenharia.jpeg";
 import { Project, Certification } from "@/types/portfolio-data";
 
 export const portfolioLinks = {
-  resume: null,
+  resume: "/cv_keilasantos.pdf",
   certifications: null,
   linkedin: "https://www.linkedin.com/in/keila-santos-campos-a897152b8",
   whatsapp:
