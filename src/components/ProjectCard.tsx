@@ -5,10 +5,9 @@ import { Button } from "@/components/ui/button";
 import { Dialog, DialogTrigger } from "@/components/ui/dialog";
 import { ArrowUpRight } from "lucide-react";
 
-
 export function ProjectCard({ project, reverse }: { project: Project; reverse: boolean }) {
   return (
-    <article className="reveal grid items-center gap-8 border-t border-border py-10 md:grid-cols-[0.9fr_1.1fr] md:gap-14 md:py-14">
+    <article className="reveal grid items-center gap-8 border-t border-border py-10 md:grid-cols-2 md:gap-14 md:py-14">
       <div className={reverse ? "md:order-2" : ""}>
         <ProjectVisual project={project} />
       </div>
