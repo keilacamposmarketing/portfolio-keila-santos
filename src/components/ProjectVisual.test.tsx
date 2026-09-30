@@ -16,14 +16,14 @@ describe("ProjectVisual (componente) - unit", () => {
     const { projectExample } = makeMocks();
     render(<ProjectVisual project={projectExample}></ProjectVisual>);
     const spanElementId = screen.getByTestId("project name");
-    expect(spanElementId).toHaveTextContent("DOCTORDOR");
+    expect(spanElementId).toHaveTextContent("CLÍNICA ORTOPEDIA");
   });
 });
 
 const makeMocks = () => {
   const projectExample = {
     number: "01",
-    name: "DOCTORDOR",
+    name: "CLÍNICA ORTOPEDIA",
     segment: "Saúde",
     platforms: "Google Ads + Meta Ads",
     image: saudeClinicaPhoto,

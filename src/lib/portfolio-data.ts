@@ -16,7 +16,7 @@ export const portfolioLinks = {
 export const projects: Project[] = [
   {
     number: "01",
-    name: "DOCTORDOR",
+    name: "CLÍNICA ORTOPEDIA",
     segment: "Saúde",
     platforms: "Google Ads + Meta Ads",
     image: saudeClinicaPhoto,
@@ -38,7 +38,7 @@ export const projects: Project[] = [
   },
   {
     number: "02",
-    name: "ENERGYA TRANSFORMADORES",
+    name: "INDUSTRIA DE TRANSFORMADORES",
     segment: "Industrial / B2B",
     platforms: "Google Ads + Meta Ads",
     image: setorEletricoPhoto,
@@ -59,7 +59,7 @@ export const projects: Project[] = [
   },
   {
     number: "03",
-    name: "GRUPO MJ",
+    name: "SOLUÇÕES HIDRAULICAS",
     segment: "Serviços / Engenharia",
     platforms: "Google Ads",
     image: setorEngenhariaPhoto,
@@ -82,25 +82,26 @@ export const projects: Project[] = [
   },
   {
     number: "04",
-    name: "OÁSIS SANTA CRUZ",
-    segment: "Mercado imobiliário",
-    platforms: "Meta Ads",
+    name: "PSIQUIATRIA",
+    segment: "Saúde",
+    platforms: "Google Ads",
     image: psiquiatriaClinicaPhoto,
     description:
-      "Empreendimento residencial com diferentes opções de plantas e configurações de apartamentos.",
+      "Campanha de Google Ads para captar pessoas que já estavam buscando atendimento psiquiátrico e direcioná-las para o contato via WhatsApp.",
     work: [
-      "Definição de público",
-      "Segmentação geográfica",
-      "Estruturação da campanha",
-      "Estratégia de criativos",
-      "CTA para WhatsApp",
-      "Acompanhamento de performance",
+      "Palavras-chave",
+      "Análise de termos de pesquisa",
+      "Palavras-chave negativas",
+      "Acompanhamento das conversões no site",
+      "Monitoramento do orçamento",
+      "Análise de performance",
+      "Otimizações",
     ],
     objective:
-      "Gerar interesse e oportunidades para o lançamento imobiliário, alcançando potenciais compradores dentro do perfil definido para o empreendimento.",
+      "Gerar contatos de potenciais pacientes pelo site, levando essas pessoas até o WhatsApp para dar continuidade ao atendimento e buscar o agendamento da consulta.",
     strategy:
-      "Gerar interesse e oportunidades para o lançamento imobiliário, alcançando potenciais compradores dentro do perfil definido para o empreendimento.",
-    metrics: ["CTR", "CPC", "Conversões", "Custo por conversão"],
+      "A campanha foi estruturada a partir das buscas relacionadas à psiquiatria, acompanhando quais termos estavam gerando tráfego e conversões. A análise dos termos de pesquisa e a inclusão de palavras-chave negativas ajudaram a filtrar buscas menos relevantes e manter o foco em pessoas com intenção de atendimento dentro da especialidade da doutora.",
+    metrics: ["CTR", "CPC", "Conversões", "Custo por conversão", "Termos de pesquisa"],
   },
 ];
 

@@ -86,7 +86,7 @@ describe("ProjectCard (componente) - unit", () => {
 const makeMocks = () => {
   const projectExample = {
     number: "01",
-    name: "DOCTORDOR",
+    name: "CLÍNICA ORTOPEDIA",
     segment: "Saúde",
     platforms: "Google Ads + Meta Ads",
     description:
