@@ -161,12 +161,20 @@ export const certifications: Certification[] = [
   { issuer: "Google", title: "Fundamentos do Marketing Digital", href: null },
   { issuer: "M2UP", title: "Google Ads: Fluxo Perfeito", href: null },
   { issuer: "M2UP", title: "Google Ads Avançado", href: null },
-  { issuer: "M2UP", title: "Google Analytics", href: "/GoogleAnalytics.pdf" },
+  {
+    issuer: "M2UP",
+    title: "Google Analytics",
+    href: "/GoogleAnalytics.pdf",
+    duration: "5h",
+    year: "2026",
+  },
   { issuer: "Alura", title: "Fundamentos de SEO", href: null },
   {
     issuer: "Sebrae",
     title: "Tráfego Pago e Ferramentas Digitais",
     href: "/TrafegoPagoFerramentasDigitais.pdf",
+    duration: "2h",
+    year: "2025",
   },
   {
     issuer: "M2UP",
