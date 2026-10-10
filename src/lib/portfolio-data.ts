@@ -162,8 +162,6 @@ export const certifications: Certification[] = [
   { issuer: "M2UP", title: "Google Ads: Fluxo Perfeito", href: null },
   { issuer: "M2UP", title: "Google Ads Avançado", href: null },
   { issuer: "M2UP", title: "Google Analytics", href: "/GoogleAnalytics.pdf" },
-  { issuer: "M2UP", title: "Instagram e Facebook Pro", href: null },
-  { issuer: "M2UP", title: "Meta Avançado", href: null },
   { issuer: "Alura", title: "Fundamentos de SEO", href: null },
   {
     issuer: "Sebrae",
