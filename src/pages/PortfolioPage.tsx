@@ -32,6 +32,10 @@ export function PortfolioPage() {
         <section
           id="inicio"
           className="relative scroll-mt-16 px-5 pb-20 pt-28 sm:pb-24 sm:pt-32 lg:px-0 lg:pb-28"
+          style={{
+            backgroundImage:
+              "linear-gradient(rgba(10, 0, 18, 0.25), rgba(10, 0, 18, 0.45)), url('/purple-background.png')",
+          }}
         >
           <div
             className="hero-grid absolute inset-y-0 right-0 w-1/2 opacity-20"
@@ -103,6 +107,10 @@ export function PortfolioPage() {
           data-testid="section_experiencia"
           id="experiencia"
           className="section-shell scroll-mt-16 bg-secondary/18"
+          style={{
+            backgroundImage:
+              "linear-gradient(rgba(10, 0, 18, 0.25), rgba(10, 0, 18, 0.45)), url('/purple-background.png')",
+          }}
         >
           <div className="mx-auto max-w-[1160px]">
             <SectionTitle
@@ -155,6 +163,10 @@ export function PortfolioPage() {
           data-testid="section_processo"
           id="processo"
           className="section-shell scroll-mt-16 bg-secondary/18"
+          style={{
+            backgroundImage:
+              "linear-gradient(rgba(10, 0, 18, 0.25), rgba(10, 0, 18, 0.45)), url('/purple-background.png')",
+          }}
         >
           <div className="mx-auto max-w-[1160px]">
             <SectionTitle
@@ -205,7 +217,13 @@ export function PortfolioPage() {
           </div>
         </section>
 
-        <section className="section-shell bg-secondary/18">
+        <section
+          className="section-shell bg-secondary/18"
+          style={{
+            backgroundImage:
+              "linear-gradient(rgba(10, 0, 18, 0.25), rgba(10, 0, 18, 0.45)), url('/purple-background.png')",
+          }}
+        >
           <div className="mx-auto grid max-w-[1160px] gap-14 lg:grid-cols-[0.65fr_1.35fr]">
             <div className="reveal">
               <p className="section-label">FORMAÇÃO</p>
