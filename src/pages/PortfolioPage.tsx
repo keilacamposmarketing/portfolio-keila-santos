@@ -221,7 +221,7 @@ export function PortfolioPage() {
               <div className="flex items-end justify-between gap-4">
                 <p className="section-label">CERTIFICAÇÕES</p>
                 <EditableLink
-                  href={portfolioLinks.certifications}
+                  href={portfolioLinks.linkedin}
                   className="cursor-not-allowed opacity-55"
                 >
                   <Button variant="portfolioOutline" size="sm">
