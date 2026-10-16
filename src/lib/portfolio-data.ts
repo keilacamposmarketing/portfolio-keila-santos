@@ -158,9 +158,21 @@ export const capabilities = [
 ];
 
 export const certifications: Certification[] = [
-  { issuer: "Google", title: "Fundamentos do Marketing Digital", href: null },
-  { issuer: "M2UP", title: "Google Ads: Fluxo Perfeito", href: null },
-  { issuer: "M2UP", title: "Google Ads Avançado", href: null },
+  // { issuer: "Google", title: "Fundamentos do Marketing Digital", href: null },
+  {
+    issuer: "M2UP",
+    title: "Google Ads: Fluxo Perfeito",
+    href: "/Google_Ads_Fluxo_Perfeito.pdf",
+    duration: "8,5h",
+    year: "2026",
+  },
+  {
+    issuer: "M2UP",
+    title: "Google Ads Avançado",
+    href: "Google_Ads_Avancado.pdf",
+    duration: "12,5h",
+    year: "2026",
+  },
   {
     issuer: "M2UP",
     title: "Google Analytics",
@@ -168,7 +180,7 @@ export const certifications: Certification[] = [
     duration: "5h",
     year: "2026",
   },
-  { issuer: "Alura", title: "Fundamentos de SEO", href: null },
+  // { issuer: "Alura", title: "Fundamentos de SEO", href: null },
   {
     issuer: "Sebrae",
     title: "Tráfego Pago e Ferramentas Digitais",
@@ -190,21 +202,21 @@ export const certifications: Certification[] = [
     year: "2026",
     href: "/MetaAds.pdf",
   },
-  { issuer: "Alura", title: "SEO: Métricas e Relatórios", year: "2025", href: null },
-  { issuer: "Kultive", title: "Social Media", year: "2025", href: null },
+  // { issuer: "Alura", title: "SEO: Métricas e Relatórios", year: "2025", href: null },
+  // { issuer: "Kultive", title: "Social Media", year: "2025", href: null },
   {
     issuer: "Complexo Argos",
     title: "Informática Básica",
     duration: "76 h",
     year: "2016",
-    href: null,
+    href: "/Informatica_Basica.jpeg",
   },
   {
     issuer: "Complexo Argos",
     title: "Microsoft Office Intermediário",
     duration: "148 h",
     year: "2017",
-    href: null,
+    href: "/Microsoft_Office_Intermediario.jpeg",
   },
 ];
 
