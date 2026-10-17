@@ -75,7 +75,7 @@ export const projects: Project[] = [
       "Otimização",
     ],
     objective:
-      "Gerar oportunidades para as diferentes soluções e serviços de engenharia oferecidos pelo Grupo MJ.",
+      "Gerar oportunidades para as diferentes soluções e serviços de engenharia da empresa.",
     strategy:
       "Separar as campanhas de acordo com cada solução e sua intenção de busca, trabalhando palavras-chave, termos de pesquisa e negativas para direcionar melhor a demanda.",
     metrics: ["CTR", "CPC", "Conversões", "Termos de pesquisa"],
