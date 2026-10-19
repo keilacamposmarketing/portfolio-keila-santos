@@ -1,5 +1,5 @@
 import psiquiatriaClinicaPhoto from "../assets/projects-clinica-psiquiatria.jpeg";
-import saudeClinicaPhoto from "../assets/projects-clinica-saude.jpeg";
+import saudeClinicaOrto from "../assets/projects-clinia-ortopedia.png";
 import setorEletricoPhoto from "../assets/projects-setor-eletrico.jpeg";
 import setorEngenhariaPhoto from "../assets/projects-setor-engenharia.jpeg";
 import { Project, Certification } from "@/types/portfolio-data";
@@ -19,7 +19,7 @@ export const projects: Project[] = [
     name: "CLÍNICA ORTOPEDIA",
     segment: "Saúde",
     platforms: "Google Ads + Meta Ads",
-    image: saudeClinicaPhoto,
+    image: saudeClinicaOrto,
     description:
       "Clínica especializada em tratamentos para diferentes tipos de dor, com atuação em mídia paga para captação de novos pacientes.",
     work: [
