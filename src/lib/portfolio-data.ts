@@ -163,14 +163,14 @@ export const certifications: Certification[] = [
     issuer: "M2UP",
     title: "Google Ads: Fluxo Perfeito",
     href: "/Google_Ads_Fluxo_Perfeito.pdf",
-    duration: "8,5h",
+    duration: "12,5h",
     year: "2026",
   },
   {
     issuer: "M2UP",
     title: "Google Ads Avançado",
     href: "Google_Ads_Avancado.pdf",
-    duration: "12,5h",
+    duration: "8,5h",
     year: "2026",
   },
   {
