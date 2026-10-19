@@ -27,7 +27,7 @@ describe("PortfolioPage (componente) - unit", () => {
 
     expect(screen.getByText("TRÁFEGO PAGO & PERFORMANCE")).toBeInTheDocument();
 
-    expect(screen.getByText("Estratégista e Análise de dados")).toBeInTheDocument();
+    expect(screen.getByText("Estrategista e Análise de dados")).toBeInTheDocument();
 
     expect(
       screen.getByText(

@@ -45,7 +45,7 @@ export function PortfolioPage() {
             <div className="reveal md:col-start-1 md:row-start-1">
               <p className="section-label text-accent-foreground">TRÁFEGO PAGO & PERFORMANCE</p>
               <h1 className="mt-6 max-w-2xl font-display text-[2.45rem] font-semibold leading-[1.08] text-foreground sm:text-5xl lg:text-[3.75rem]">
-                Estratégista e Análise de dados
+                Estrategista e Análise de dados
               </h1>
               <p className="mt-6 max-w-xl text-sm leading-7 text-muted-foreground sm:text-base">
                 Atuo na criação, acompanhamento e otimização de campanhas de mídia paga, conectando
