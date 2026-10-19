@@ -33,7 +33,7 @@ export const projects: Project[] = [
     ],
     objective: "Gerar oportunidades de contato para tratamentos e serviços da clínica.",
     strategy:
-      "ESTRATÉGIA\n\nEstruturação das campanhas a partir da intenção de busca, localização e perfil do público, com acompanhamento das conversões para identificar oportunidades de otimização.",
+      "Estruturação das campanhas a partir da intenção de busca, localização e perfil do público, com acompanhamento das conversões para identificar oportunidades de otimização.",
     metrics: ["CTR", "CPC", "Conversões", "Custo por conversão", "Termos de pesquisa"],
   },
   {
